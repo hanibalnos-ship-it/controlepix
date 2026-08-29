@@ -1,0 +1,25 @@
+CONTROLE PIX - GERAR APK PELO GITHUB
+====================================
+
+1) Entre em https://github.com e faça login.
+2) Clique em New repository.
+3) Nome sugerido: ControlePix
+4) Pode deixar como PRIVATE.
+5) Clique em Create repository.
+6) Na página do repositório, escolha "uploading an existing file" / "Add file > Upload files".
+7) Envie TODO o conteúdo desta pasta ControlePix, inclusive a pasta oculta .github.
+   IMPORTANTE: os arquivos build.gradle.kts, settings.gradle.kts e a pasta app precisam ficar
+   na raiz do repositório. Não coloque uma pasta ControlePix dentro de outra.
+8) Faça o Commit.
+9) Abra a aba Actions.
+10) Clique em "Gerar APK Controle Pix".
+11) Clique em "Run workflow" > "Run workflow".
+12) Aguarde o processo ficar verde.
+13) Abra a execução concluída e, em Artifacts, baixe "ControlePix-APK".
+14) Extraia o ZIP baixado pelo GitHub. Dentro estará app-debug.apk.
+15) Envie/abra app-debug.apk no Android e permita instalar apps desconhecidos, se solicitado.
+
+Observação:
+- O APK é uma versão de teste (debug), ideal para nosso uso próprio.
+- O app continua sem permissão INTERNET.
+- Depois de instalar, abra Controle Pix e toque em "Liberar acesso" para permitir leitura das notificações.
